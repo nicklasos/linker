@@ -43,3 +43,4 @@ Example config:
 * OS (Windows, iOS, Android, Macos, Ubuntu, Debian, Linux)
 * Locale
 * Platform (phone, tablet, mobile, desktop, robot)
+
