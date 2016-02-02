@@ -1,0 +1,11 @@
+{
+    "locale": "ru",
+    "url": "http://google.com/ru",
+    "child": {
+        "locale": "en",
+        "url": "http://google.com/en",
+        "child": {
+            "url": "http://microsoft.com"
+        }
+    }
+}

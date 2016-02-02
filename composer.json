@@ -1,0 +1,17 @@
+{
+    "name": "Plariumed/Linker",
+    "autoload": {
+        "psr-0": {
+            "Linker": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "require": {
+        "jenssegers/agent": "^2.2"
+    }
+}

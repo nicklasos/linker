@@ -1,0 +1,16 @@
+{
+    "platform": "phone",
+    "url": "http://apple.com",
+    "child": {
+        "platform": "tablet",
+        "url": "http://google.com",
+        "child": {
+            "platform": "mobile",
+            "url": "http://android.com",
+            "child": {
+                "platform": "desktop",
+                "url": "http://microsoft.com"
+            }
+        }
+    }
+}
