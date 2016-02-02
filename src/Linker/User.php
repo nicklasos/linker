@@ -48,6 +48,18 @@ class User
             return 'macos';
         }
 
+        if ($this->agent->is('Ubuntu')) {
+            return 'ubuntu';
+        }
+
+        if ($this->agent->is('Debian')) {
+            return 'debian';
+        }
+
+        if ($this->agent->is('Linux')) {
+            return 'linux';
+        }
+
         return null;
     }
 

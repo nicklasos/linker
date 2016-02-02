@@ -20,7 +20,7 @@ Example config:
             "child": {
                 "locale": "en",
                 "os": "ios",
-                "platform": "phone"
+                "platform": "phone",
                 "url": "http://apple.com/en",
                 "child": {
                     "url": "http://microsoft.com"
@@ -40,7 +40,6 @@ Example config:
 
 ### Supported params
 
-* OS (Windows, iOS, Android, Macos)
+* OS (Windows, iOS, Android, Macos, Ubuntu, Debian, Linux)
 * Locale
 * Platform (phone, tablet, mobile, desktop, robot)
-
